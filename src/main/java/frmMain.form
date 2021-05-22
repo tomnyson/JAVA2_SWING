@@ -25,7 +25,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="221" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" pref="247" max="-2" attributes="0"/>
+              <Component id="lbResult" min="-2" pref="247" max="-2" attributes="0"/>
               <EmptySpace pref="436" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -34,14 +34,14 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" pref="93" max="-2" attributes="0"/>
+              <Component id="lbResult" min="-2" pref="93" max="-2" attributes="0"/>
               <EmptySpace pref="264" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="lbResult">
       <Properties>
         <Property name="text" type="java.lang.String" value="m&#xe0;n h&#xec;nh ch&#xed;nh"/>
       </Properties>

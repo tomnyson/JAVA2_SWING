@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class UserDAO {
 
-    public ArrayList<UserDTO> lsUser = new ArrayList<UserDTO>();
+    public static ArrayList<UserDTO> lsUser = new ArrayList<UserDTO>();
 
     public UserDAO() {
         lsUser.add(new UserDTO("admin", "123456"));
@@ -34,6 +34,12 @@ public class UserDAO {
             }
         }
         return false;
+    }
+
+    public boolean isCreate(String username, String pass) {
+        UserDTO user = new UserDTO(username, pass);
+        lsUser.add(user);
+        return true;
     }
 
 }
